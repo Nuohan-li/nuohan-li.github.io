@@ -3,7 +3,8 @@
     <head>
         <meta charset="utf-8">
         <title>notes</title>
-        <link rel="stylesheet" href="../styling/style.css">
+        <link rel="stylesheet" href="../styling/style_note.css">
+        <link rel="icon" href="../pictures/favicon/favicon.ico">
     </head>
 
     <body>
@@ -45,15 +46,28 @@
         <br><br>
 
         <h2>CSS</h2>
+        <hr>
             <p>there are browser default CSS even if there is no css file specified</p>
             <p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-style">border style</a></p>
             <p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/height">height</a></p>
             <p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/width">width</a></p>
-            <br>
             <p>text color: user color: to set the text to desired color, see <a href="https://www.w3schools.com/css/css_text.asp">text color</a></p>
-
-
-        <hr>
+            <p>selector: ids and classes
+                <ul>
+                    <li>
+                        id: added to the designated tag like an attribute, a pound '#' is added in
+                        front of the class name in .css file</li>
+                    <li>
+                        class: added to the designated tag like an attribute, a dot '.' is added in
+                        front of the class name in .css file. multiple classes can be assigned to one element, ex: class="class1 class2"
+                    </li>
+                    <li>
+                        id vs class: id must be unique, class can be assigned to multiple elements
+                    </li>
+                    <li>Pseudo class: define a state of an element, typically used with a colon ":" see
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes">pseudo class</a> </li>
+                </ul>
+            </p>
         <br><br>
         <h2>Path</h2>
         <hr>
@@ -64,11 +78,14 @@
                 then the latter would have to be in the parent folder of someFolder)</p>
 
             <p>/ means the root level (so /style.css is the same as http://www.mysite.com/style.css)</p>
-        <hr>
+        
         <br><br>
         <h2>miscellaneous</h2>
         <hr>
             <p>meta charset="" : tells the browser to encode all the texts in the file to the chosen encoding system</p>
-        <hr>
+            <p>favicon, icon that shows on tabs before the title
+               add a link, rel=icon href="path"
+               <a href="https://www.favicon.cc/">make favicon</a>
+            </p>
     </body>
 </html>
