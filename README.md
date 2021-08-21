@@ -1,2 +1,2 @@
 # personal_site
-my Curriculum Vitae
+My personal web site, currently under construction 
