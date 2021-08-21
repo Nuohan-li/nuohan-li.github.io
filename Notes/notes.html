@@ -18,6 +18,7 @@
                 body has a default margin of 8, hence element will not be placed to the very top of left etc,
                 this margin needs to be manually set to 0
             </p>
+            <p> span: used to decorate part of a text. Note: inline, dimensions cannot be changed</p>
             <p> div: used to group elements to facilitate styling</p>
             <p> hr: tag that adds a horizontal line</p>
             <p> <em>em: emphasizes the text and makes the texts italic</em></p>
@@ -51,6 +52,7 @@
 
         <h2>CSS</h2>
         <hr>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#index">CSS reference on MDN</a>
             <p>there are browser default CSS even if there is no css file specified</p>
             <p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-style">border style</a></p>
             <p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/height">height</a></p>
@@ -73,7 +75,28 @@
                 </ul>
             </p>
             <br>
-            <p>center: text-align: center put text in the center</p>
+            <p>center: text-align: center put text in the center, NOTE: will not work if the size is changed
+                in this case, need to use margin-left: auto and margin-right:auto
+            </p>
+            <p>padding: affect the content, does not affect backgroud color or image</p>
+            <p>display type:
+                <ul>
+                    <li>block: occupies a whole block, no other elements can be place on left or right, able to change dimension</li>
+                    <li>inline: allows elements to be placed side by side, dimension not changeable</li>
+                    <li>inline-block: allows elements to be palced side by side, dimension is changeable</li>
+                    <li>none: makes an element disappear</li>
+                </ul>
+            </p>
+            <p>position
+                <ul>
+                    <li>static: default position used by HTML</li>
+                    <li>relative: allows user to set the position relative to its normal position, position set by using left: right: etc. 
+                        NOTE: does not push other elements, it will be shown on top of other elements
+                    </li>
+                    <li>absolute: position the element relative to its parent element</li>
+                    <li>fixed: the element is fixed on its assinged position, will not disappear even if user scrolls down or right</li>
+                </ul>
+            </p>
         <br><br>
         <h2>Path</h2>
         <hr>

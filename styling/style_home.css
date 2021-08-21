@@ -1,8 +1,8 @@
 body{
-   background-image: linear-gradient(10deg, black, rgb(27, 3, 2));
+   background-image: linear-gradient(0deg, white, rgba(54, 148, 143, 0.452));
    background-repeat: no-repeat;
    background-attachment: fixed;
-   color: white;
+   color: black;
    margin: 0;
 }
 
@@ -12,7 +12,7 @@ body{
 }
 
 .menu_bar{
-    background-image: linear-gradient(10deg, black, rgb(27, 3, 2));
+    
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 0;
@@ -20,11 +20,10 @@ body{
 
 .menu_bar a{
     text-decoration: none; 
-    color: white 
+    color: black 
 }
 
 .topMenuItem{
-    color: white;
     font-size: 20px;
     margin-top: 0px;
     margin-left: 10%;
@@ -43,14 +42,14 @@ body{
 .welcomeText{
     text-align: center;
     animation: fadein 2s;
+    font-family: Parisienne;
+    font-size: 600%;
 }
-.welcomeText1{
+.nameText{
     text-align: center;
-    animation: fadein 4s;
-}
-.welcomeText2{
-    text-align: center;
-    animation: fadein 6s;
+    animation: fadein 3s;
+    font-family: Parisienne;
+    font-size: 600%;
 }
 
 @keyframes fadein {
