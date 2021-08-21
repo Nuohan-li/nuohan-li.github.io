@@ -1,5 +1,6 @@
 body{
-   background-image: linear-gradient(0deg, white, rgba(54, 148, 143, 0.452));
+   /*background-image: linear-gradient(0deg, white, rgba(54, 148, 143, 0.452));*/
+   background-image: linear-gradient(0deg, white, rgb(83, 141, 216));
    background-repeat: no-repeat;
    background-attachment: fixed;
    color: black;
@@ -12,10 +13,13 @@ body{
 }
 
 .menu_bar{
-    
+    margin-top: 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    margin: 0;
+    
 }
 
 .menu_bar a{
@@ -24,8 +28,8 @@ body{
 }
 
 .topMenuItem{
-    font-size: 20px;
-    margin-top: 0px;
+    font-size: 200%;
+    
     margin-left: 10%;
     display: inline;
 }
@@ -34,26 +38,57 @@ body{
     text-decoration: underline;
 }
 
-.container{
+.icon-img{
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 5px;
+}
+
+.welcome-div{
     margin: 0;
+    padding-top: 10%;
     padding-left: 8px;
 }
 
 .welcomeText{
-    text-align: center;
+    animation: fadein 2s;
+    font-family: Parisienne;
+    font-size: 600%;
+    margin: 0;
+    margin-left: 10%;
+}
+.nameText{
+    margin: auto;
+    margin-left: 10%;
+    margin-top: 5%;
     animation: fadein 2s;
     font-family: Parisienne;
     font-size: 600%;
 }
-.nameText{
-    text-align: center;
-    animation: fadein 3s;
+.aspiration{
+    margin: auto;
+    margin-left: 10%;
+    margin-top: 5%;
+    animation: fadein 2s;
     font-family: Parisienne;
     font-size: 600%;
+}
+
+hr{
+    border-top: 5px;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-color: gray;
+    border-style: dotted;
+    width: 5%;
+    margin-top: 5%;
 }
 
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
+
 
