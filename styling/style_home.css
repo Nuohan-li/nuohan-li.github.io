@@ -1,5 +1,7 @@
 body{
-   background-color: black;
+   background-image: linear-gradient(10deg, black, rgb(27, 3, 2));
+   background-repeat: no-repeat;
+   background-attachment: fixed;
    color: white;
    margin: 0;
 }
@@ -10,7 +12,9 @@ body{
 }
 
 .menu_bar{
-    background-color: black;  
+    background-image: linear-gradient(10deg, black, rgb(27, 3, 2));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     margin: 0;
 }
 
@@ -21,9 +25,9 @@ body{
 
 .topMenuItem{
     color: white;
-    font-size: 40px;
+    font-size: 20px;
     margin-top: 0px;
-    margin-left: 10px;
+    margin-left: 10%;
     display: inline;
 }
 
@@ -34,5 +38,23 @@ body{
 .container{
     margin: 0;
     padding-left: 8px;
+}
+
+.welcomeText{
+    text-align: center;
+    animation: fadein 2s;
+}
+.welcomeText1{
+    text-align: center;
+    animation: fadein 4s;
+}
+.welcomeText2{
+    text-align: center;
+    animation: fadein 6s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
