@@ -1,2 +1,2 @@
-# personal_site
+# My personal website
 My personal web site, currently under construction 
