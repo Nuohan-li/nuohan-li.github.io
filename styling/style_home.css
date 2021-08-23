@@ -182,10 +182,11 @@ hr{
     font-size: 200%;
     width: 150px;
     padding: 20px;
-    background: rgb(29, 108, 153);
+    border: 1px solid rgb(29, 108, 153);
+    color: rgb(29, 108, 153);
     text-align: center;
     text-decoration: none;
-    color: white;
+    
     border-radius: 5px;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
@@ -197,10 +198,14 @@ hr{
     transform: scale(1.1);
 }
 
-
-#dad-joke{
+.thanks-h1{
     font-family: Merriweather;
     text-align: center;
+}
+
+.dad-joke{
+    font-family: Merriweather;
+    text-align: left;
 }
 #footer {
     margin: 0;
