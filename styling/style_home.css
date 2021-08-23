@@ -39,7 +39,7 @@ html{
 }
   
 .welcome-div{
-
+    text-align: center;
     margin: 0;
     margin-bottom: 10%;
     padding-top: 10%;
@@ -52,11 +52,9 @@ html{
     font-family: Parisienne;
     font-size: 600%;
     margin: 0;
-    margin-left: 10%;
 }
 .nameText{
     margin: auto;
-    margin-left: 10%;
     margin-top: 5%;
     animation: fadein 2s;
     font-family: Parisienne;
