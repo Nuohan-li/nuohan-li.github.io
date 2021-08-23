@@ -9,9 +9,8 @@ body{
    padding:0;
 }
 
-.topMenu{
-    margin: 0;
-    padding-inline-start: 0;
+html{
+    scroll-padding-top: 12%;
 }
 
 .header{
@@ -19,34 +18,26 @@ body{
     width: 100%;
 }
 
-.menu_bar{
-    margin-top: 0;
-    width: 100%;
-    top: 0;
+.top_nav{
     background-color: white;
-    /*background-repeat: no-repeat;
-    background-attachment: fixed;*/
-    
+    overflow: hidden;
 }
 
-.menu_bar a{
-    text-decoration: none; 
-    color: black 
-    
-}
-
-.topMenuItem{
-    font-size: 125%;
-    font-weight: 300;
-    margin-left: 2%;
-    display: inline;
+.top_nav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 2% 2%;
+    text-decoration: none;
+    font-size: 150%;
     font-family: Merriweather;
 }
 
-.topMenuItem a:hover{ 
-    font-size: 200%;
+.top_nav a:hover {
+    background-color: rgb(152, 181, 233);
+    color: black;
 }
-
+  
 .welcome-div{
 
     margin: 0;
@@ -95,7 +86,7 @@ hr{
     margin-bottom: 10%;
 }
 
-.profile-gif{
+#profile-gif{
     float: left;
     margin-right: 15%;
     margin-left: 10%;
@@ -136,7 +127,7 @@ hr{
     width: 50%;
     padding-left: 40%;
 }
-.coding-div{
+#coding-div{
     float: right;
     margin-right: 15%;
     width: 40%;

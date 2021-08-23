@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.top_nav{
+    background-color: white;
+    overflow: hidden;
+}
+
+.top_nav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 2% 2%;
+    text-decoration: none;
+    font-size: 150%;
+    font-family: Merriweather;
+}
+
+.top_nav a:hover {
+    background-color: rgb(152, 181, 233);
+    color: black;
+}
+
+.tictactoe{
+    display: flex;
+    width: 75%;
+    margin: 10% auto 10% auto;
+    border: 1px solid rgb(29, 108, 153);
+    border-radius: 15px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.tictactoe:hover{
+    box-shadow: 0 0 20px rgb(29, 108, 153);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.tictactoe-pic{
+    float: left;
+    margin: 3% 3%;
+}
+
+.tictactoe-desc{
+    font-family: Merriweather;
+    font-size: 125%;
+    text-align: center;
+    padding: 3% 3%;
+}
+
+.tictactoe-text{
+    text-align: left;
+}
+
+.snake{
+    display: flex;
+    width: 75%;
+    margin: 10% auto 10% auto;
+    border: 1px solid rgb(29, 108, 153);
+    border-radius: 15px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.snake:hover{
+    box-shadow: 0 0 20px rgb(29, 108, 153);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.snake-pic{
+    float: left;
+    margin: 3% 3%;
+}
+
+.snake-desc{
+    font-family: Merriweather;
+    font-size: 125%;
+    text-align: center;
+    padding: 3% 3%;
+}
+
+.snake-text{
+    text-align: left;
+}
+
+.bot{
+    display: flex;
+    width: 75%;
+    margin: 10% auto 10% auto;
+    border: 1px solid rgb(29, 108, 153);
+    border-radius: 15px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.bot:hover{
+    box-shadow: 0 0 20px rgb(29, 108, 153);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.bot-pic{
+    float: left;
+    margin: 3% 3%;
+}
+.bot-desc{
+    font-family: Merriweather;
+    font-size: 125%;
+    text-align: center;
+    padding: 3% 3%;
+}
+
+.bot-text{
+    text-align: left;
+}
+
+.more{
+    display: flex;
+    width: 75%;
+    margin: 10% auto 10% auto;
+    border: 1px solid rgb(29, 108, 153);
+    border-radius: 15px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.more:hover{
+    box-shadow: 0 0 20px rgb(29, 108, 153);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.more-desc{
+    font-family: Merriweather;
+    font-size: 125%;
+    text-align: center;
+    padding: 3% 3%;
+}
+
+.more-text{
+    text-align: left;
+}
+
+img{
+    object-fit: cover;
+}
+
+#footer {
+    margin: 0;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 100%;
+ 
+}
+
+#footer a{
+    text-decoration: none;
+    color: black
+}
