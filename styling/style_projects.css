@@ -39,22 +39,6 @@ body{
     transform: scale(1.1);
 }
 
-.tictactoe-pic{
-    float: left;
-    margin: 3% 3%;
-}
-
-.tictactoe-desc{
-    font-family: Merriweather;
-    font-size: 125%;
-    text-align: center;
-    padding: 3% 3%;
-}
-
-.tictactoe-text{
-    text-align: left;
-}
-
 .snake{
     display: flex;
     width: 75%;
@@ -69,22 +53,6 @@ body{
     box-shadow: 0 0 20px rgb(29, 108, 153);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
-}
-
-.snake-pic{
-    float: left;
-    margin: 3% 3%;
-}
-
-.snake-desc{
-    font-family: Merriweather;
-    font-size: 125%;
-    text-align: center;
-    padding: 3% 3%;
-}
-
-.snake-text{
-    text-align: left;
 }
 
 .bot{
@@ -103,19 +71,39 @@ body{
     transform: scale(1.1);
 }
 
-.bot-pic{
-    float: left;
-    margin: 3% 3%;
+.optik{
+    display: flex;
+    width: 75%;
+    margin: 10% auto 10% auto;
+    border: 1px solid rgb(29, 108, 153);
+    border-radius: 15px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
 }
-.bot-desc{
+
+.optik:hover{
+    box-shadow: 0 0 20px rgb(29, 108, 153);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.pic{
+    float: left;
+    
+    top: 50%;
+    margin: 3% 3%;
+    width: 80%;
+}
+.desc{
     font-family: Merriweather;
     font-size: 125%;
     text-align: center;
     padding: 3% 3%;
 }
 
-.bot-text{
+.text{
     text-align: left;
+    line-height: 2;
 }
 
 .more{
@@ -132,17 +120,6 @@ body{
     box-shadow: 0 0 20px rgb(29, 108, 153);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
-}
-
-.more-desc{
-    font-family: Merriweather;
-    font-size: 125%;
-    text-align: center;
-    padding: 3% 3%;
-}
-
-.more-text{
-    text-align: left;
 }
 
 img{

@@ -153,7 +153,7 @@ hr{
     color: black;
 }
 
-.contact-div{
+#contact-div{
     text-align: center;
     font-family: Merriweather;
 }
@@ -186,6 +186,44 @@ hr{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
+
+.contact-form{
+    display: none;
+    text-align: center;
+    margin-top: 5%;
+    font-family: Merriweather;
+}
+
+.contact-text{
+    margin-bottom: 2%;
+}
+
+.form-btn{
+    font-size: 200%;
+    width: 150px;
+    padding: 20px;
+    border: 1px solid rgb(29, 108, 153);
+    color: rgb(29, 108, 153);
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 2%;
+    
+    border-radius: 5px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.form-btn:hover{
+    box-shadow: 0 0 20px rgb(29, 108, 153);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.google-form{
+    display: none;
+    margin-top: 3%;
+}
+
 
 .thanks-h1{
     font-family: Merriweather;
