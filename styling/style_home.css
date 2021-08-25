@@ -150,7 +150,7 @@ hr{
 
 .project-link{
     text-decoration: underline;
-    color: black;
+    color: rgb(29, 108, 153);
 }
 
 #contact-div{
@@ -190,14 +190,21 @@ hr{
 .contact-form{
     display: none;
     text-align: center;
-    margin-top: 5%;
     font-family: Merriweather;
+    border-radius: 5px;
+    width: 50%;
+    margin: 5% auto 0 auto;
+    animation: fadein 2s;
 }
 
 .contact-text{
     margin-bottom: 2%;
 }
 
+.form-btn-div{
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
 .form-btn{
     font-size: 200%;
     width: 150px;
@@ -206,7 +213,8 @@ hr{
     color: rgb(29, 108, 153);
     text-align: center;
     text-decoration: none;
-    margin-bottom: 2%;
+    padding-bottom: 20px;
+    
     
     border-radius: 5px;
     -webkit-transition-duration: 0.3s;

@@ -6,11 +6,12 @@
         <link rel="stylesheet" href="styling/style_home.css">
         <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Sacramento&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&&display=swap" rel="stylesheet">
-        <script type="text/javascript" src="javascript/script.js"></script>
+        
         <meta name="viewport" content="width=device-width, initial-scale=0.5">
     </head>
 
     <body>
+        
         <header class="header">
             <div class="top_nav">
                 <a href="cv/cv.html">CV</a>
@@ -68,19 +69,21 @@
                 I'd be happy to hear from you!
             </h2>
 
-            <a class="contact-btn" onclick="showForm()">Contact Me</a>
+            <a class="contact-btn" onclick="contactDisplayStyle()">Contact Me</a>
         </div>
 
         <div class="contact-form">
             <h2 class="contact-text">Please send me your message to my email: nuohan.li@uwaterloo.ca<br>
             or use the embedded Google form.</h2>
              
-            <a href="google form" class="form-btn" >show form</a>
+            <div class="form-btn-div"> 
+                <a class="form-btn" onclick="googleDisplayStyle()">show form</a>
+            </div>
+            
 
             <div class="google-form">
                 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdv4eWTNc7mwLtrt7fzNv_xDJc90Kdi_jAL1vs_XUvGqrtCZQ/viewform?embedded=true" width="640" height="573" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             </div>
-
         </div>
 
 
@@ -97,5 +100,6 @@
             <p>© Nuohan Li 2021. All Rights Reserved</p>
             <p>Disclaimer: all pictures used in this website are FREE images downloaded from https://pixabay.com or screenshots taken by myself, from my own work. </p>
         </div>
+        <script type="text/javascript" src="javascript/script.js"></script>
     </body>
 </html>

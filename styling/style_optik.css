@@ -1,0 +1,36 @@
+.map-editor{
+    font-family: Merriweather;
+    display: flex;
+    width: 75%;
+    margin: 10% auto 10% auto;
+}
+
+.map-img{
+    float: left;
+    top: 50%;
+    margin: 3% 3%;
+    width: 60%;
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+}
+img{
+    object-fit: cover;
+}
+
+.pic{
+    float: left;
+    top: 50%;
+    margin: 3% 3%;
+    width: 80%;
+}
+.desc{
+    font-family: Merriweather;
+    font-size: 125%;
+    text-align: center;
+    padding: 3% 3%;
+}
+
+.text{
+    text-align: left;
+    line-height: 2;
+}
