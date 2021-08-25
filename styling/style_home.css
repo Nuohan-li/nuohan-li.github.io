@@ -145,7 +145,7 @@ hr{
 
 #projects{
     margin-top: 10%;
-    margin-bottom: 15%;
+    margin-bottom: 10%;
 }
 
 .project-link{
@@ -185,6 +185,7 @@ hr{
     box-shadow: 0 0 20px rgb(29, 108, 153);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 .contact-form{
@@ -214,8 +215,6 @@ hr{
     text-align: center;
     text-decoration: none;
     padding-bottom: 20px;
-    
-    
     border-radius: 5px;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
@@ -225,6 +224,7 @@ hr{
     box-shadow: 0 0 20px rgb(29, 108, 153);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 .google-form{
@@ -232,16 +232,6 @@ hr{
     margin-top: 3%;
 }
 
-
-.thanks-h1{
-    font-family: Merriweather;
-    text-align: center;
-}
-
-.dad-joke{
-    font-family: Merriweather;
-    text-align: left;
-}
 #footer {
     margin: 0;
     text-align: center;

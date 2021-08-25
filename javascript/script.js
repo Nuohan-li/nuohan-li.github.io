@@ -16,7 +16,6 @@ function closeContact(){
     cDisplayStlye.style.display = "none"; 
     cFormDisplayed = false;
     document.getElementsByClassName("contact-btn")[0].innerHTML = "Contact Me";
-
     closeForm();
 }
 
@@ -61,5 +60,26 @@ function googleDisplayStyle(){
     else{
         showForm();
     }
+}
+
+// navigate to contact, for contact button in project page
+function navigateToContact(){
+    location.href = "../index.html#contact-div";
+}
+
+function tictactoeGit(){
+    location.href = "https://github.com/Nuohan-L/TicTacToe_py";
+}
+
+function snakeGit(){
+    location.href = "https://github.com/Nuohan-L/Snake_py";
+}
+
+function botGit(){
+    location.href = "https://github.com/Nuohan-L/DRandomBot";
+}
+
+function optikGit(){
+    location.href = "https://github.com/Eerohne/Optik-Engine";
 }
 

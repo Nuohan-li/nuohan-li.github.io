@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
     <link rel="icon" href="../pictures/favicon/favicon.ico">
     <link rel="stylesheet" href="../styling/style_projects.css">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&&display=swap" rel="stylesheet">
@@ -13,12 +13,28 @@
     <header class="header">
         <div class="top_nav">
             <a href="../index.html">Home</a>
-            <a href="#">Contact Me</a>
-            
         </div>
     </header>
 
-    <div class="tictactoe">
+    <div class="contact-btn">
+        <div class="btn">
+            <img class="btn-img" src="../pictures/contact.png" onclick="navigateToContact()" alt="">
+        </div>
+    </div>
+
+    <div class="contact-popup">
+        <h2 class="contact-text">Please send me your message to my email: nuohan.li@uwaterloo.ca<br>
+            or use the embedded Google form.</h2>
+             
+            <div class="form-btn-div"> 
+                <a class="form-btn" onclick="googleDisplayStyle()">show form</a>
+            </div>
+            <div class="google-form">
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdv4eWTNc7mwLtrt7fzNv_xDJc90Kdi_jAL1vs_XUvGqrtCZQ/viewform?embedded=true" width="640" height="573" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            </div>
+    </div>
+
+    <div class="tictactoe" onclick="tictactoeGit()">
         <div class="pic">
             <img src="../pictures/tictactoe.PNG" alt="">
         </div>
@@ -31,7 +47,7 @@
         </div>        
     </div>
 
-    <div class="snake">
+    <div class="snake" onclick="snakeGit()">
         <div class="pic">
             <img src="../pictures/snake.PNG" alt="">
         </div>
@@ -45,7 +61,7 @@
         </div>
     </div>
 
-    <div class="bot">
+    <div class="bot" onclick="botGit()">
         <div class="pic">
             <img src="../pictures/DRandomBot.PNG" alt="">
         </div>
@@ -60,18 +76,18 @@
         </div>
     </div>
 
-    <div class="optik">
-        <div class="pic">
+    <div class="optik" >
+        <div class="pic" onclick="optikGit()">
             <img src="../pictures/optik.PNG" alt="">
         </div>
         <div class="desc">
             <h1>Optik Engine</h1>
             <p class="text">
-               Game engine that creates games and render them using ray casting. Made with JavaFX. Please click on it for more details. <br>
-               This is a team effort, credits to:
-                        
-                            <br>- Abderrahman Laoufi (Map & game entity editor)
-                            <br>- Merouane Issad (Render)
+               Game engine that creates games and render them using ray casting. Made with JavaFX.<br>
+               This is a team effort, lead by Merouane Issad. <br>Credits to:
+                            <br>- Abderrahman Laoufi (Map & entity editor) <a class="Abder-git" href="https://github.com/Eerohne">github</a>
+                            <br> &ensp; <span class="email">email: laoufiabder@gmail.com</span>
+                            <br>- Merouane Issad (Render) <br> &ensp; <span class="email">email: merouaneissad@gmail.com</span>
                             <br>- Jeffrey Gan (Render)
                             
             </p>
@@ -91,7 +107,8 @@
 
     <div id="footer">
         <p>© Nuohan Li 2021. All Rights Reserved</p>
-        <p>Disclaimer: all pictures used in this website are FREE images downloaded from https://pixabay.com or screenshots taken by myself, from my own work. </p>
+        
     </div>
+    <script type="text/javascript" src="../javascript/script.js"></script>
 </body>
 </html>
