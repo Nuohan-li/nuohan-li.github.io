@@ -122,6 +122,20 @@ body{
     transform: scale(1.1);
 }
 
+.optik-pic{
+    float: left;
+    top: 50%;
+    margin: 3% 3%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.optik-pic:hover .optik-img{
+    cursor: pointer;
+}
+
+
 .abder-git{
     text-decoration: none;
     color: rgb(29, 108, 153);
