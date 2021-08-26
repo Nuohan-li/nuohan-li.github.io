@@ -116,7 +116,7 @@ body{
 .optik-pic{
     clear: left;
     width: 60%;
-    margin: 0 auto 0 auto;
+    margin: 3% auto 0 auto;
 }
 
 .optik-pic:hover .optik-img{
@@ -150,7 +150,7 @@ body{
 .pic{
     clear: left;
     width: 60%;
-    margin: 0 auto 0 auto;
+    margin: 3% auto 0 auto;
 }
 .desc{
     font-family: Merriweather;
