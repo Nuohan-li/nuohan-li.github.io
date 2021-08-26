@@ -77,15 +77,15 @@ function navigateToContact(){
 }
 
 function tictactoeGit(){
-    location.href = "https://github.com/Nuohan-L/TicTacToe_py";
+    location.href = "https://github.com/Nuohan-li/TicTacToe_py";
 }
 
 function snakeGit(){
-    location.href = "https://github.com/Nuohan-L/Snake_py";
+    location.href = "https://github.com/Nuohan-li/Snake_py";
 }
 
 function botGit(){
-    location.href = "https://github.com/Nuohan-L/DRandomBot";
+    location.href = "https://github.com/Nuohan-li/DRandomBot";
 }
 
 function optikGit(){

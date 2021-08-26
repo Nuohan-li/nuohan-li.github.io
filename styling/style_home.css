@@ -70,9 +70,7 @@ html{
     padding-top: 60px;
     position: fixed;
     z-index: 1;
-    background-image: linear-gradient(0deg, white, rgb(83, 141, 216));
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: rgb(175, 169, 169);
 }
 
 .side-nav a{
