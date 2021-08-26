@@ -64,7 +64,6 @@ function googleDisplayStyle(){
 
 function openNav() {
     document.getElementsByClassName("side-nav")[0].style.width = "250px";
-    
   }
   
   /* Set the width of the side navigation to 0 */

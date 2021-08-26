@@ -65,12 +65,14 @@ html{
     width: 0;
     top: 0;
     right: 0;
-    background-color: #818181;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
     position: fixed;
     z-index: 1;
+    background-image: linear-gradient(0deg, white, rgb(83, 141, 216));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .side-nav a{
@@ -80,6 +82,7 @@ html{
     color: black;
     display: block;
     transition: 0.3s;
+    font-family: Merriweather;
 }
 
 .side-nav .close-btn {
@@ -91,9 +94,14 @@ html{
   }
 
   .side-nav a:hover {
-    color: rgb(152, 181, 233);
+    color: white;
   }
   
+  .sidenav-hr{
+    border-color: gray;
+    border-style: solid;
+    width: 80%;
+  }
 .welcome-div{
     text-align: center;
     margin: 0;
@@ -135,7 +143,7 @@ html{
     }
 }
 
-hr{
+.sep-hr{
     top: 85%;
     left: 50%;
 
