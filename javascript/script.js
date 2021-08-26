@@ -62,6 +62,16 @@ function googleDisplayStyle(){
     }
 }
 
+function openNav() {
+    document.getElementsByClassName("side-nav")[0].style.width = "250px";
+    
+  }
+  
+  /* Set the width of the side navigation to 0 */
+  function closeNav() {
+    document.getElementsByClassName("side-nav")[0].style.width = "0";
+  }
+
 // navigate to contact, for contact button in project page
 function navigateToContact(){
     location.href = "../index.html#contact-div";
