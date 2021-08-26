@@ -10,7 +10,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=0.5">
     </head>
 
-    <body>
+    <body >
         <div class="hamburger-menu" onclick="openNav()">
             <div class="bar1"></div>
             <div class="bar2"></div>
@@ -31,6 +31,8 @@
             <a href="#about" onclick="closeNav()">About</a> 
             <hr class="sidenav-hr">
             <a href="#contact-div" onclick="closeNav()">Contact</a>
+            <hr class="sidenav-hr">
+            <a href="pages/blog.html" onclick="closeNav()">Blog</a>
         </div>
         
         <header class="header"></header>
@@ -41,86 +43,89 @@
                 <a href="#projects">Projects</a>
                 <a href="#about">About</a> 
                 <a href="#contact-div">Contact</a>
+                <a href="pages/blog.html">Blog</a>
             </div>
         </header>
 
-        <div class="welcome-div">
-            <h1 class="welcomeText">Welcome to my website!</h1><br>
-            <h1 class="nameText">I'm Nuohan Li</h1>
-            
-        </div>
-
-        <hr class="sep-hr">
-
-        <div id="about">
-            <div id="profile-div">
-                <img class="profile-pic" src="pictures/profile.jpg" alt="">
+        <div onclick="closeNav()">
+            <div class="welcome-div">
+                <h1 class="welcomeText">Welcome to my website!</h1><br>
+                <h1 class="nameText">I'm Nuohan Li</h1>
+                
             </div>
-            <div class="about-div">
-                <h1 class="about-title">About</h1>
-                <div class="about-text">
-                    <p >
-                        Hi! My name is Nuohan Li, I am from Montreal, Quebec. I am currently a freshman at University of Waterloo in Computer Engineering. <br><br>
-                    I have quite a bit of experience working as a technician, troubleshooting various issues for over 1350 Dollarama stores across
-                    Canada in both English and French.  <br><br>
-                    I am also able to write programs in Java/JavaFX and C++. <br><br> Currently self learning Python, HTML, CSS and Javascript to further improve 
-                    my web development skills.
-                    </p>
+
+            <hr class="sep-hr">
+
+            <div id="about">
+                <div id="profile-div">
+                    <img class="profile-pic" src="pictures/profile.jpg" alt="">
+                </div>
+                <div class="about-div">
+                    <h1 class="about-title">About</h1>
+                    <div class="about-text">
+                        <p >
+                            Hi! My name is Nuohan Li, I am from Montreal, Quebec. I am currently a freshman at University of Waterloo in Computer Engineering. <br><br>
+                        I have quite a bit of experience working as a technician, troubleshooting various issues for over 1350 Dollarama stores across
+                        Canada in both English and French.  <br><br>
+                        I am also able to write programs in Java/JavaFX and C++. <br><br> Currently self learning Python, HTML, CSS and Javascript to further improve 
+                        my web development skills.
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <hr class="sep-hr">
+
+            <div id="projects">
+                <div id="coding-div">
+                    <img class="coding-pic" src="pictures/coding.png" alt="">
+                </div>
+                <div class="project-div">
+                    <h1 class="project-title">Project</h1>
+                    <div>
+                        <p class="project-text">Here are some projects I have worked on and some projects that I will be working on. <br><br>
+                            Please feel free to contact me should there be any issue or if you have any suggestion, and if you'd like, please
+                            download the source code from my github to test, modify and play around with it.<br><br>
+                            <a class="project-link" href="pages/projects.html">Here is the link to my project descriptions.</a></p>
+                    </div>
+                    
                 </div>
                 
             </div>
-        </div>
 
-        <hr class="sep-hr">
+            <hr class="sep-hr"> 
 
-        <div id="projects">
-            <div id="coding-div">
-                <img class="coding-pic" src="pictures/coding.png" alt="">
+            <div id="contact-div">
+                <span class="get-in-touch">Let's get in touch!</span>
+                <h2 class="contact-text"> <br>Use the button below to contact me if you have any suggestion or anything you would like to talk about.<br>
+                    I'd be happy to hear from you!
+                </h2>
+
+                <a class="contact-btn" onclick="contactDisplayStyle()" >Contact Me</a>
             </div>
-            <div class="project-div">
-                <h1 class="project-title">Project</h1>
-                <div>
-                    <p class="project-text">Here are some projects I have worked on and some projects that I will be working on. <br><br>
-                        Please feel free to contact me should there be any issue or if you have any suggestion, and if you'd like, please
-                        download the source code from my github to test, modify and play around with it.<br><br>
-                        <a class="project-link" href="pages/projects.html">Here is the link to my project descriptions.</a></p>
+
+            <div class="contact-form">
+                <h2 class="contact-text">Please send me your message to my email: nuohan.li@uwaterloo.ca<br>
+                or use the embedded Google form.</h2>
+                
+                <div class="form-btn-div"> 
+                    <a class="form-btn" onclick="googleDisplayStyle()">show form</a>
                 </div>
                 
+
+                <div class="google-form">
+                    <iframe class="google-frame" src="https://docs.google.com/forms/d/e/1FAIpQLSdv4eWTNc7mwLtrt7fzNv_xDJc90Kdi_jAL1vs_XUvGqrtCZQ/viewform?embedded=true" width="640" height="573" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                </div>
             </div>
-            
-        </div>
 
-        <hr class="sep-hr"> 
 
-        <div id="contact-div">
-            <span class="get-in-touch">Let's get in touch!</span>
-            <h2 class="contact-text"> <br>Use the button below to contact me if you have any suggestion or anything you would like to talk about.<br>
-                I'd be happy to hear from you!
-            </h2>
+            <hr class="sep-hr">
 
-            <a class="contact-btn" onclick="contactDisplayStyle()" >Contact Me</a>
-        </div>
-
-        <div class="contact-form">
-            <h2 class="contact-text">Please send me your message to my email: nuohan.li@uwaterloo.ca<br>
-            or use the embedded Google form.</h2>
-             
-            <div class="form-btn-div"> 
-                <a class="form-btn" onclick="googleDisplayStyle()">show form</a>
+            <div id="footer">
+                <p>© Nuohan Li 2021. All Rights Reserved</p>
+                
             </div>
-            
-
-            <div class="google-form">
-                <iframe class="google-frame" src="https://docs.google.com/forms/d/e/1FAIpQLSdv4eWTNc7mwLtrt7fzNv_xDJc90Kdi_jAL1vs_XUvGqrtCZQ/viewform?embedded=true" width="640" height="573" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-            </div>
-        </div>
-
-
-        <hr class="sep-hr">
-
-        <div id="footer">
-            <p>© Nuohan Li 2021. All Rights Reserved</p>
-            
         </div>
         <script type="text/javascript" src="javascript/script.js"></script>
     </body>
