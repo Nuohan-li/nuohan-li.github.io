@@ -13,19 +13,7 @@ html{
     scroll-padding-top: 12%;
 }
 
-.header{
-    position: fixed;
-    width: 100%;
-}
-
-.top_nav{
-    /*background-color: white;*/
-    /*background-image: linear-gradient(0deg, white, rgb(83, 141, 216));
-    background-repeat: no-repeat;
-    background-attachment: fixed;*/
-}
-
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
     .top_nav{
         display: none;
     }
@@ -52,10 +40,13 @@ html{
     right: 0;
     margin: 2% 2% 0 0;
     display: block;
-    
 }
 
-@media screen and (min-width: 1000px) {
+.hamburger-menu:hover{
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1200px) {
     .hamburger-menu{
         display: none;
     }
@@ -125,13 +116,23 @@ html{
     font-family: Parisienne;
     font-size: 600%;
 }
-.aspiration{
-    margin: auto;
-    margin-left: 10%;
-    margin-top: 5%;
-    animation: fadein 2s;
-    font-family: Parisienne;
-    font-size: 600%;
+
+@media screen and (max-width: 900px) {
+    .welcomeText{
+        font-size: 400%; 
+    }
+    .nameText{
+        font-size: 400%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .welcomeText{
+        font-size: 200%; 
+    }
+    .nameText{
+        font-size: 200%;
+    }
 }
 
 hr{
@@ -149,16 +150,17 @@ hr{
     margin-bottom: 10%;
 }
 
-#profile-gif{
-    float: left;
-    margin-right: 15%;
-    margin-left: 10%;
-    margin-top: 2%;
-    width: 35%;
+/* properties applied to about section when screen is < 800px */
+#profile-div{
+    clear: left;
+    display: block;
+    width: 80%;
+    margin: 0 auto 0 auto;
 }
 .profile-pic{
     border-radius: 10%;
     width: 90%;
+    padding-left: 5%;
 }
 
 #about{
@@ -171,41 +173,71 @@ hr{
 }
 
 .about-div{
-    width: 40%;
-    padding-left: 60%;
+    width: 80%;
+    display: block;
+    margin: 0 auto 0 auto;
 }
 
 .about-title{
-    margin-right: 10%;
+    text-align: center;
     font-family: Merriweather;
 }
 
 .about-text{
+    margin: 0 auto 0 auto;
     line-height: 2;
-    margin-right: 10%;
     font-family: Merriweather;
 }
 
+/*
+    properties applied to About section when the width of the screen is > 1200px
+*/
+@media screen and (min-width: 1200px) {
+    #profile-div{
+        float: left;
+        margin-right: 15%;
+        margin-left: 10%;
+        margin-top: 2%;
+        width: 35%;
+    }
+    .about-div{
+        width: 40%;
+        padding-left: 60%;
+    }
+    .about-title{
+        text-align: left;
+        margin-right: 10%;
+        font-family: Merriweather;
+    }
+    .about-text{
+        line-height: 2;
+        margin-right: 10%;
+        font-family: Merriweather;
+    }
+}
+
+/* properties applied to project intro section when screen < 1200px*/
 .coding-pic{
     width: 50%;
-    padding-left: 40%;
+    padding-left: 25%
 }
 #coding-div{
-    float: right;
-    margin-right: 15%;
-    width: 40%;
+    clear: right;
+    display: block;
+    margin: 0;
+    width: 80%;
+    margin: 0 auto 0 auto;
 }
 
-.project-text{
-    margin-left: 15%;
-    margin-top: 10%;
+.project-div{
+    margin: 0 auto 0 auto;
     font-family: Merriweather;
     line-height: 2;
-    width: 40%;
+    width: 70%;
 }
 
 .project-title{
-    margin-left: 10%;
+    text-align: center;
 }
 
 #projects{
@@ -218,6 +250,37 @@ hr{
     color: rgb(29, 108, 153);
 }
 
+/* properties applied to project intro section when screen > 1200px*/
+@media screen and (min-width: 1200px){
+    .coding-pic{
+        width: 50%;
+        padding-left: 40%;
+    }
+    #coding-div{
+        float: right;
+        margin-right: 15%;
+        width: 40%;
+    }
+    .project-title{
+        text-align: left;
+    
+    }
+    .project-div{
+        margin-left: 20%;
+        margin-top: 10%;
+        font-family: Merriweather;
+        line-height: 2;
+        width: 40%;
+    }
+    .project-text{
+        text-align: left;
+        line-height: 2;
+        margin-right: 10%;
+        font-family: Merriweather;
+    }
+}
+
+/* properties applied to contact section when screen > 1200px*/
 #contact-div{
     text-align: center;
     font-family: Merriweather;
@@ -295,6 +358,47 @@ hr{
 .google-form{
     display: none;
     margin-top: 3%;
+}
+
+/* properties applied to contact section when screen < 1200px*/
+@media screen and (max-width: 1200px) {
+    .contact-text{
+        font-size: 100%;
+    }
+    .get-in-touch{
+        font-size: 175%;
+    }
+    .contact-btn{
+        font-size: 150%;
+        padding: 15px;
+    }
+    .form-btn{
+        font-size: 150%;
+        padding: 15px;
+    }
+    .google-frame{
+        width: 100%;
+    }
+    
+}
+/* properties applied to contact section when screen < 800px*/
+@media screen and (max-width: 800px) {
+    .contact-text{
+        font-size: 75%;
+    }
+    .get-in-touch{
+        font-size: 100%;
+    }
+    .contact-btn{
+        font-size: 100%;
+        padding: 10px;
+    }
+    .form-btn{
+        font-size: 100%;
+        padding: 10px;
+    }
+
+    
 }
 
 #footer {

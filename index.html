@@ -22,12 +22,12 @@
             <a href="cv/cv.html" onclick="closeNav()">CV</a>
             <a href="cv/resume-EN.pdf" onclick="closeNav()">resume</a>
             <a href="https://github.com/Nuohan-L" onclick="closeNav()">github</a>
-            <a href="#projects" onclick="closeNav()">Projects</a>
+            <a href="pages/projects.html" onclick="closeNav()">Projects</a>
             <a href="#about" onclick="closeNav()">About</a> 
             <a href="#contact-div" onclick="closeNav()">Contact</a>
         </div>
         
-        <header class="header">
+        <header class="header"></header>
             <div class="top_nav">
                 <a href="cv/cv.html">CV</a>
                 <a href="cv/resume-EN.pdf">resume</a>
@@ -47,18 +47,21 @@
         <hr>
 
         <div id="about">
-            <div id="profile-gif">
+            <div id="profile-div">
                 <img class="profile-pic" src="pictures/profile.jpg" alt="">
             </div>
             <div class="about-div">
-            <h1 class="about-title">About</h1>
-                <p class="about-text">
-                    Hi! My name is Nuohan Li, I am from Montreal, Quebec. I am currently a freshman at University of Waterloo in Computer Engineering. <br><br>
-                I have quite a bit of experience working as a technician, troubleshooting various issues for over 1350 Dollarama stores across
-                Canada in both English and French.  <br><br>
-                I am also able to write programs in Java/JavaFX and C++. <br><br> Currently self learning Python, HTML, CSS and Javascript to further improve 
-                my web development skills.
-                </p>
+                <h1 class="about-title">About</h1>
+                <div class="about-text">
+                    <p >
+                        Hi! My name is Nuohan Li, I am from Montreal, Quebec. I am currently a freshman at University of Waterloo in Computer Engineering. <br><br>
+                    I have quite a bit of experience working as a technician, troubleshooting various issues for over 1350 Dollarama stores across
+                    Canada in both English and French.  <br><br>
+                    I am also able to write programs in Java/JavaFX and C++. <br><br> Currently self learning Python, HTML, CSS and Javascript to further improve 
+                    my web development skills.
+                    </p>
+                </div>
+                
             </div>
         </div>
 
@@ -68,12 +71,15 @@
             <div id="coding-div">
                 <img class="coding-pic" src="pictures/coding.png" alt="">
             </div>
-            <div class="project-text">
+            <div class="project-div">
                 <h1 class="project-title">Project</h1>
-                <p class="project-title">Here are some projects I have worked on and some projects that I will be working on. <br><br>
-                Please feel free to contact me should there be any issue or if you have any suggestion, and if you'd like, please
-                download the source code from my github to test, modify and play around with it.<br><br>
-                <a class="project-link" href="pages/projects.html">Here is the link to my project descriptions.</a></p>
+                <div>
+                    <p class="project-text">Here are some projects I have worked on and some projects that I will be working on. <br><br>
+                        Please feel free to contact me should there be any issue or if you have any suggestion, and if you'd like, please
+                        download the source code from my github to test, modify and play around with it.<br><br>
+                        <a class="project-link" href="pages/projects.html">Here is the link to my project descriptions.</a></p>
+                </div>
+                
             </div>
             
         </div>
@@ -81,7 +87,8 @@
         <hr>
 
         <div id="contact-div">
-            <h2 class="contact-text"><span class="get-in-touch">Let's get in touch!</span> <br>Use the button below to contact me if you have any suggestion or anything you would like to talk about.<br>
+            <span class="get-in-touch">Let's get in touch!</span>
+            <h2 class="contact-text"> <br>Use the button below to contact me if you have any suggestion or anything you would like to talk about.<br>
                 I'd be happy to hear from you!
             </h2>
 
@@ -98,7 +105,7 @@
             
 
             <div class="google-form">
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdv4eWTNc7mwLtrt7fzNv_xDJc90Kdi_jAL1vs_XUvGqrtCZQ/viewform?embedded=true" width="640" height="573" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                <iframe class="google-frame" src="https://docs.google.com/forms/d/e/1FAIpQLSdv4eWTNc7mwLtrt7fzNv_xDJc90Kdi_jAL1vs_XUvGqrtCZQ/viewform?embedded=true" width="640" height="573" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             </div>
         </div>
 

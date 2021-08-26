@@ -50,15 +50,9 @@ body{
     height: 40px;
 }
 
-
-.contact-popup{
-    display: none;
-}
-
 .tictactoe{
-    display: flex;
-    width: 75%;
-    margin: 10% auto 10% auto;
+    display: block;
+    margin: 10%;
     border: 1px solid rgb(29, 108, 153);
     border-radius: 15px;
     -webkit-transition-duration: 0.3s;
@@ -73,9 +67,8 @@ body{
 }
 
 .snake{
-    display: flex;
-    width: 75%;
-    margin: 10% auto 10% auto;
+    display: block;
+    margin: 10%;
     border: 1px solid rgb(29, 108, 153);
     border-radius: 15px;
     -webkit-transition-duration: 0.3s;
@@ -90,9 +83,9 @@ body{
 }
 
 .bot{
-    display: flex;
-    width: 75%;
-    margin: 10% auto 10% auto;
+    display: block;
+    margin: 10%;
+    
     border: 1px solid rgb(29, 108, 153);
     border-radius: 15px;
     -webkit-transition-duration: 0.3s;
@@ -107,9 +100,8 @@ body{
 }
 
 .optik{
-    display: flex;
-    width: 75%;
-    margin: 10% auto 10% auto;
+    display: block;
+    margin: 10%;
     border: 1px solid rgb(29, 108, 153);
     border-radius: 15px;
     -webkit-transition-duration: 0.3s;
@@ -121,14 +113,10 @@ body{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
-
 .optik-pic{
-    float: left;
-    top: 50%;
-    margin: 3% 3%;
-    width: 80%;
-    display: flex;
-    justify-content: center;
+    clear: left;
+    width: 60%;
+    margin: 0 auto 0 auto;
 }
 
 .optik-pic:hover .optik-img{
@@ -145,30 +133,8 @@ body{
     color: rgb(29, 108, 153);
 }
 
-.pic{
-    float: left;
-    top: 50%;
-    margin: 3% 3%;
-    width: 80%;
-    display: flex;
-    justify-content: center;
-}
-.desc{
-    font-family: Merriweather;
-    font-size: 125%;
-    text-align: center;
-    padding: 3% 3%;
-}
-
-.text{
-    text-align: left;
-    line-height: 2;
-}
-
 .more{
-    display: flex;
-    width: 75%;
-    margin: 10% auto 10% auto;
+    margin: 10%;
     border: 1px solid rgb(29, 108, 153);
     border-radius: 15px;
     -webkit-transition-duration: 0.3s;
@@ -179,6 +145,125 @@ body{
     box-shadow: 0 0 20px rgb(29, 108, 153);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
+}
+
+.pic{
+    clear: left;
+    width: 60%;
+    margin: 0 auto 0 auto;
+}
+.desc{
+    font-family: Merriweather;
+    text-align: center;
+}
+
+.text{
+    display: block;
+}
+
+.screenshot{
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.optik-screenshot{
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.tictactoe-screenshot{
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.credits{
+    text-align: left;
+}
+
+@media screen and (min-width: 1400px) {
+    .tictactoe{
+        display: flex;
+        width: 75%;
+        margin: 10% auto 10% auto;    
+    }
+
+    .snake{
+        display: flex;
+        width: 75%;
+        margin: 10% auto 10% auto;
+    }
+
+    .bot{
+        display: flex;
+        width: 75%;
+        margin: 
+        10% auto 10% auto;
+    }
+
+    .optik{
+        display: flex;
+        width: 75%;
+        margin: 10% auto 10% auto;
+        border: 1px solid rgb(29, 108, 153);
+        border-radius: 15px;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+    }
+
+    .more{
+        display: flex;
+        width: 75%;
+        margin: 10% auto 10% auto;
+        border: 1px solid rgb(29, 108, 153);
+        border-radius: 15px;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+    }
+
+    .pic{
+        float: left;
+        top: 50%;
+        margin: 3% 3%;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+    .optik-pic{
+        float: left;
+        top: 50%;
+        margin: 3% 3%;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+    .desc{
+        font-family: Merriweather;
+        font-size: 125%;
+        text-align: center;
+        padding: 3% 3%;
+    }
+    
+    .text{
+        text-align: left;
+        line-height: 2;
+    }
+    .screenshot{
+        display: inline;
+        width: auto;
+    }
+    .tictactoe-screenshot{
+        display: inline;
+        width: auto;
+    }
+    .optic-screenshot{
+        display: inline;
+        width: auto;
+    }
+    
+
 }
 
 #footer {
