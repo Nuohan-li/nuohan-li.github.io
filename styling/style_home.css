@@ -91,11 +91,11 @@ html{
     margin-left: 50px;
   }
 
-  .side-nav a:hover {
+.side-nav a:hover {
     color: white;
   }
   
-  .sidenav-hr{
+.sidenav-hr{
     border-color: gray;
     border-style: solid;
     width: 80%;
@@ -170,12 +170,10 @@ html{
 }
 
 #about{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 0 auto 0 auto;
     top: 100%;
-    left: 30%;
-    right: 10%;
-    margin-bottom: 10%;
+    width: 70%;
+ 
 }
 
 .about-div{
@@ -225,7 +223,7 @@ html{
 #about-website{
     font-family: Merriweather;
     margin: 0 auto 0 auto;
-    width: 65%;
+    width: 58%;
     text-align: center;
     line-height: 2;
 }
@@ -247,7 +245,7 @@ html{
 }
 
 .project-div{
-    margin: 0 auto 0 auto;
+    margin: 0 auto 0 auto; 
     font-family: Merriweather;
     line-height: 2;
     width: 70%;
@@ -258,8 +256,8 @@ html{
 }
 
 #projects{
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin: 0 auto 0 auto;
+    width: 80%;
 }
 
 .project-link{
@@ -270,7 +268,7 @@ html{
 /* properties applied to project intro section when screen > 1200px*/
 @media screen and (min-width: 1200px){
     .coding-pic{
-        width: 50%;
+        width: 70%;
         padding-left: 40%;
     }
     #coding-div{
@@ -280,10 +278,10 @@ html{
     }
     .project-title{
         text-align: left;
-    
+        padding-left: 10%;
     }
     .project-div{
-        margin-left: 20%;
+        margin-left: 10%;
         margin-top: 10%;
         font-family: Merriweather;
         line-height: 2;
@@ -294,6 +292,7 @@ html{
         line-height: 2;
         margin-right: 10%;
         font-family: Merriweather;
+        padding-left: 10%;
     }
 }
 
