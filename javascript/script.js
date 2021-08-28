@@ -1,8 +1,5 @@
-let cDisplayStlye = document.getElementsByClassName("contact-form")[0]; //getting html element of contact form
+let cDisplayStlye = document.getElementsByClassName("form-div")[0]; //getting html element of contact form
 let cFormDisplayed = false;
-
-let gDisplayStyle = document.getElementsByClassName("google-form")[0]; // getting html element of google form
-let googleFormDisplayed = false; // used to check if google form is displayed
 
 // show contact information 
 function showContact(){
@@ -32,34 +29,12 @@ function contactDisplayStyle(){
     }
 }
 
-
 // show google form and change text on the button to dismiss form
 function showForm(){
     gDisplayStyle.style.display = "block";
     document.getElementsByClassName("form-btn")[0].innerHTML = "dismiss form";
     googleFormDisplayed = true;
     
-}
-
-// dismiss google form and change text on the button to show form
-function closeForm(){
-    gDisplayStyle.style.display = "none";
-    document.getElementsByClassName("form-btn")[0].innerHTML = "show form";
-    googleFormDisplayed = false;
-}
-
-/* 
-will be called in the html document when show/dismiss form button is clicked 
-closeForm or showForm will be called depending on the state of google form
-*/
-
-function googleDisplayStyle(){
-    if(googleFormDisplayed == true){
-        closeForm();
-    }
-    else{
-        showForm();
-    }
 }
 
 function openNav() {

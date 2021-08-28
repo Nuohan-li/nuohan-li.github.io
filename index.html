@@ -123,18 +123,17 @@
                 <a class="contact-btn" onclick="contactDisplayStyle()" >Contact Me</a>
             </div>
 
-            <div class="contact-form">
-                <h2 class="contact-text">Please send me your message to my email: nuohan.li@uwaterloo.ca<br>
-                or use the embedded Google form.</h2>
-                
-                <div class="form-btn-div"> 
-                    <a class="form-btn" onclick="googleDisplayStyle()">show form</a>
-                </div>
-                
-
-                <div class="google-form">
-                    <iframe class="google-frame" src="https://docs.google.com/forms/d/e/1FAIpQLSdv4eWTNc7mwLtrt7fzNv_xDJc90Kdi_jAL1vs_XUvGqrtCZQ/viewform?embedded=true" width="640" height="573" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-                </div>
+            <div class="form-div">
+                <form action="https://formspree.io/f/mnqllqjq" method="POST">
+                    <label class="email-label">Your name:</label>
+                    <input type="text" name="name:" required>
+                    <label class="email-label">Your email:</label>
+                    <input type="email" name="email:" required>
+                    <label class="message-label">Your message:</label>
+                    <textarea class="message" name="message" required></textarea>
+                    <!-- your other form fields go here -->
+                    <input type="submit" value="Submit">
+                    </form>
             </div>
 
 
