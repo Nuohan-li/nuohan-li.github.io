@@ -366,8 +366,7 @@ input[type=email] {
 input[type=submit] {
     width: 100%;
     padding: 12px 20px;
-    margin-top: 2%;
-    margin-bottom: 5%;
+    margin: 2% auto 5% auto;
     display: block;
     border: 1px solid rgb(29, 108, 153);
     font-size: 100%;
