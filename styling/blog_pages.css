@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../pictures/bkground.jpg");
+}
+
+.bodypart{
+    width: 80%;
+    background-color: aliceblue;
+    margin: 10% auto 0 auto;
+}
+.header{
+    position: fixed;
+    width: 80%;
+    top: 0;
+    height: 10%;
+    background-color: aliceblue;
+}
+.top_nav{
+    background-color: white;
+    
+}
+.top_nav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 2% 2%;
+    text-decoration: none;
+    font-size: 150%;
+    font-family: Merriweather;
+}
+.top_nav a:hover {
+    background-color: rgb(152, 181, 233);
+    color: black;
+    cursor: pointer;
+}
+.intro-div{
+    margin: 0 auto 10% auto;
+    padding-top: 5%;
+    font-size: 200%;
+    font-family: Merriweather;
+    text-align: center;
+    width: 80%;
+}
+
+.intro-title{
+    color: rgb(152, 181, 233);
+}
+#footer a{
+    color: black;
+}
+.copyright{
+    margin-top: 20px;
+    text-align: center;
+}

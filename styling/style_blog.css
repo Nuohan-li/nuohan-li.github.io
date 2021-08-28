@@ -1,15 +1,23 @@
 body{
     margin: 0;
     padding: 0;
+    background-image: url("../pictures/bkground.jpg");
+}
+.bodypart{
+    width: 80%;
+    background-color: aliceblue;
+    margin: 10% auto 0 auto;
 }
 .header{
     position: fixed;
-    width: 100%;
+    width: 80%;
     top: 0;
+    height: 10%;
+    background-color: aliceblue;
 }
 .top_nav{
     background-color: white;
-    overflow: hidden;
+    
 }
 .top_nav a {
     float: left;
@@ -27,7 +35,8 @@ body{
 }
 
 .intro-div{
-    margin: 10% auto 10% auto;
+    margin: 0 auto 10% auto;
+    padding-top: 5%;
     font-size: 200%;
     font-family: Merriweather;
     text-align: center;
@@ -36,4 +45,76 @@ body{
 
 .intro-title{
     color: rgb(152, 181, 233);
+}
+
+.desktop-table{
+    display: block;
+    width: 80%;
+    margin: 0 auto 0 auto;
+    font-family: Merriweather;
+    border-spacing: 10%;
+}
+.mobile-table{
+    display: none;
+    width: 80%;
+    margin: 0 auto 0 auto;
+    font-family: Merriweather;
+    border-spacing: 10%;
+}
+
+tr{
+    margin: 0 auto 0 auto;
+}
+
+td{
+    padding-bottom: 5%;
+}
+
+.article{
+    border: 1px solid rgba(243, 184, 90, 0.746);
+    border-radius: 5px;
+    padding-left: 5%;
+    margin: 0 auto 0 auto;
+    width: 80%;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.article:hover{
+    box-shadow: 0 0 20px rgba(243, 184, 90, 0.746);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#footer {
+    margin: 0;
+    margin-left: 10px; 
+    margin-right: 10px; 
+    text-align: left;
+    font-family: Merriweather;
+    font-size: 80%;
+    margin-top:200px;
+}
+
+
+@media screen and (max-width: 800px) {
+    .mobile-table{
+        display: block;
+    }
+    .desktop-table{
+        display:none;
+    }
+    .intro-div{
+        font-size: 100%;
+    }
+    .article{
+        font-size: 80%;
+    }
+}
+#footer a{
+    color: black;
+}
+.copyright{
+    margin-top: 20px;
+    text-align: center;
 }
