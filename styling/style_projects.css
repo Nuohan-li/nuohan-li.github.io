@@ -184,6 +184,17 @@ body{
     line-height: 2;
 }
 
+.project{
+    opacity: 0;
+    transition: all 1s ease-in;
+    transform: translateX(-500px);
+}
+
+.project-item{
+    opacity: 1;
+    transform: translateX(0px);
+}
+
 @media screen and (min-width: 1400px) {
     .tictactoe{
         display: flex;

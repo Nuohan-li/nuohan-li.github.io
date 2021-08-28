@@ -97,7 +97,7 @@ td{
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
     .mobile-table{
         display: block;
     }

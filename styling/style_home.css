@@ -7,7 +7,7 @@ body{
    color: black;
    margin: 0;
    padding:0;
-   /*background-image: url("../pictures/snow.jpg");*/
+   box-sizing: border-box;
 }
 
 html{
@@ -102,20 +102,18 @@ html{
     width: 80%;
   }
 .welcome-div{
-    text-align: center;
-    margin: 0;
-    margin-bottom: 10%;
+    margin: 0 auto 10% auto;
+    width: 50%;
     padding-top: 10%;
     padding-left: 8px;
-    box-sizing: border-box;
 }
-
 .welcomeText{
-    animation: fadein 2s;
-    font-family: Parisienne;
+    font-family: parisienne;
     font-size: 600%;
     margin: 0;
+    line-height: 2;
 }
+
 .nameText{
     margin: auto;
     margin-top: 5%;
@@ -124,7 +122,32 @@ html{
     font-size: 600%;
 }
 
+span{
+    opacity: 0;
+    color: brown;
+    transition: all 0.3s ease-out;
+    
+}
+.spanItem{
+    color: black;
+    opacity: 1;
+}
+
+.nameSpan{
+    opacity: 0;
+    color: brown;
+    transition: all 0.3s ease-out;
+    
+}
+.nameItem{
+    color: black;
+    opacity: 1;
+}
+
 @media screen and (max-width: 900px) {
+    .welcome-div{
+        width: 80%;
+    }
     .welcomeText{
         font-size: 400%; 
     }
@@ -134,6 +157,9 @@ html{
 }
 
 @media screen and (max-width: 600px) {
+    .welcome-div{
+        width: 80%;
+    }
     .welcomeText{
         font-size: 200%; 
     }
@@ -145,7 +171,6 @@ html{
 .sep-hr{
     top: 85%;
     left: 50%;
-
     border-top: 5px;
     border-left: 0;
     border-right: 0;

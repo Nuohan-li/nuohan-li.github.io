@@ -34,7 +34,6 @@ function showForm(){
     gDisplayStyle.style.display = "block";
     document.getElementsByClassName("form-btn")[0].innerHTML = "dismiss form";
     googleFormDisplayed = true;
-    
 }
 
 function openNav() {
