@@ -55,14 +55,12 @@ body{
     margin: 10%;
     border: 1px solid rgb(29, 108, 153);
     border-radius: 15px;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
+   
 }
 
 .tictactoe:hover{
     box-shadow: 0 0 20px rgb(29, 108, 153);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+   
     cursor: pointer;
 }
 
@@ -71,14 +69,12 @@ body{
     margin: 10%;
     border: 1px solid rgb(29, 108, 153);
     border-radius: 15px;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
+    
 }
 
 .snake:hover{
     box-shadow: 0 0 20px rgb(29, 108, 153);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+   
     cursor: pointer;
 }
 
@@ -88,14 +84,12 @@ body{
     
     border: 1px solid rgb(29, 108, 153);
     border-radius: 15px;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
+    
 }
 
 .bot:hover{
     box-shadow: 0 0 20px rgb(29, 108, 153);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+  
     cursor: pointer;
 }
 
@@ -104,14 +98,12 @@ body{
     margin: 10%;
     border: 1px solid rgb(29, 108, 153);
     border-radius: 15px;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
+    
 }
 
 .optik:hover{
     box-shadow: 0 0 20px rgb(29, 108, 153);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+   
 }
 .optik-pic{
     clear: left;
@@ -137,14 +129,12 @@ body{
     margin: 10%;
     border: 1px solid rgb(29, 108, 153);
     border-radius: 15px;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
+    
 }
 
 .more:hover{
     box-shadow: 0 0 20px rgb(29, 108, 153);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+    
 }
 
 .pic{

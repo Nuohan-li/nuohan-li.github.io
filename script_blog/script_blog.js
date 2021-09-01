@@ -1,0 +1,1 @@
+$(".article1").load("../blog_pages/this_blog.html");

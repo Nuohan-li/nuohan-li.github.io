@@ -24,27 +24,28 @@ body{
     float: left;
     color: black;
     text-align: center;
-    padding: 5% 5%;
+    padding: 2% 2%;
     text-decoration: none;
     font-size: 150%;
     font-family: Merriweather;
 }
 .top_nav a:hover {
-    background-color: rgb(152, 181, 233);
+    background-color: rgb(233, 202, 152);
     color: black;
     cursor: pointer;
 }
 .intro-div{
-    margin: 0 auto 10% auto;
+    margin: 0 auto 20% auto;
     padding-top: 5%;
-    font-size: 200%;
+    font-size: 175%;
     font-family: Merriweather;
-    text-align: center;
+    line-height: 2;
     width: 80%;
 }
 
 .intro-title{
-    color: rgb(152, 181, 233);
+    color: rgb(223, 182, 116);
+    text-align: center;
 }
 #footer a{
     color: black;
