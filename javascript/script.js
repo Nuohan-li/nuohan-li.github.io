@@ -54,6 +54,14 @@ function tictactoeGit(){
     location.href = "https://github.com/Nuohan-li/TicTacToe_py";
 }
 
+function taskGit(){
+    location.href = "https://github.com/Nuohan-li/Task_Manager";
+}
+
+function hackingToolsGit(){
+    location.href = "https://github.com/Nuohan-li/arpspoof";
+}
+
 function snakeGit(){
     location.href = "https://github.com/Nuohan-li/Snake_py";
 }
